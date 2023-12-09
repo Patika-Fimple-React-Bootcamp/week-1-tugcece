@@ -5,7 +5,7 @@ const printData = (data) => {
     let html = renderJson(data[i]);
     todosContainer.appendChild(html);
   }
- 
+  
 }; 
 // func arrange loading message and api data
 document.addEventListener("DOMContentLoaded", function () {
