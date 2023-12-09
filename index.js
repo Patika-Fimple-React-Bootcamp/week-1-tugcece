@@ -6,7 +6,7 @@ const printData = (data) => {
     todosContainer.appendChild(html);
   }
 
-};
+}; 
 // func arrange loading message and api data
 document.addEventListener("DOMContentLoaded", function () {
   const cardsContainer = document.querySelector(".cards");
